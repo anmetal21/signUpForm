@@ -1,0 +1,14 @@
+.container{
+    display:flex;
+    width:100vw;
+    height:100vh; 
+}
+
+.container-left {
+    background-image:url(backgroundroad.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat:no-repeat;
+    width:30vw;
+    margin:0;
+}
