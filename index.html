@@ -12,23 +12,51 @@
        
        <div class="container-left">
            <div class="logo-container">
-               <p>Logo</p>
+                <img class="odinlogo" src="odin-lined.png">
+               <p>OdinProject</p>
            </div>
        </div>
        <div class="container-right">
            <div class="textbox">
-               <p>This is not a real online service</p>
-               <p>You know you want to look at it though</p>
+               <p>This is <u><em>NOT</em></u> a real online service</p>
+               <p>You know you want to look at it though.</p>
            </div>
            <div class="form">
-               <h1>Do it now</h1>
-               <form>
-                    <label></label>
+               <h1>Call To Action</h1>
+               <form action="" method="post"> 
+                    <div class="input">
+                        <label for="firstname">First Name</label>
+                        <input type="text" id="firstname" name="name" required>
+                    </div>
+                    <div class="input">
+                        <label for="lastname">Last Name</label>
+                        <input type="text" id="lastname" name="name" required>
+                    </div>
+
+                    <div class="input">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+
+                    <div class="input">
+                        <label for="phonenumber">Phone Number</label>
+                        <input type="number" id="phonenumber" name="phonenumber">
+                    </div>
+
+                    <div class="input">
+                        <label for="password">Password</label>
+                        <input type="password" id="password" name="password" required>
+                    </div>
+
+                    <div class="input">
+                        <label for="cpassword">Confirm Password</label>
+                        <input type="password" id="cpassword" name="cpassword" required>
+                    </div>
                </form>
            </div>
            <div class="closing">
                <button type="submit">Create Account</button>
-               <p>Already have an account? <a id="Login">Log-in</a></p>
+               <p class="login">Already have an account? <a href="Login">Log in</a></p>
            </div>
        </div>
        
